@@ -1,8 +1,8 @@
 <?php
 
 //Get your user UserCode and API token from https://www.lessannoyingcrm.com/app/Settings/Api
-$UserCode = "39C5A";
-$APIToken = "NC81D5RMDQM501GMB6829G90SY1FGS060K88GJ9BS82J57YF46";
+$UserCode = "ABCDE";
+$APIToken = "111111111111111111111111111111111111111111111111";
 
 function CallAPI($Function, $Parameters){
   global $UserCode, $APIToken;
