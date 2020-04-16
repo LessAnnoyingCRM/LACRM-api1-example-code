@@ -1,6 +1,6 @@
 <?php
 
-include('../init.php');
+include('init.php');
 
 $Function = "DeleteContact";
 
@@ -12,3 +12,4 @@ $Result = CallAPI($Function, $Parameters);
  
 DebugOutput($Result);
  
+?>
