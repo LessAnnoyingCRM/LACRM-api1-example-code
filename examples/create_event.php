@@ -1,6 +1,6 @@
 <?php
 
-include('../init.php');
+include('init.php');
 
 $Function = "CreateEvent";
 
@@ -16,3 +16,4 @@ $Result = CallAPI($Function, $Parameters);
  
 DebugOutput($Result);
  
+?>
