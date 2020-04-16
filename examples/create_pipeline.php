@@ -1,6 +1,6 @@
 <?php
 
-include('../init.php');
+include('init.php');
 
 $Function = "CreatePipeline";
 
@@ -15,3 +15,4 @@ $Result = CallAPI($Function, $Parameters);
  
 DebugOutput($Result);
  
+?>
