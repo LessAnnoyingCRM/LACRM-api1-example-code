@@ -32,3 +32,5 @@ function DebugOutput($Text, $Echo=true, $IncludeHR=true){
 	if(!$Echo)
 		return ob_get_clean();
 }
+
+?>
