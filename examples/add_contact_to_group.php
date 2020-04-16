@@ -13,3 +13,4 @@ $Result = CallAPI($Function, $Parameters);
  
 DebugOutput($Result);
  
+?>
