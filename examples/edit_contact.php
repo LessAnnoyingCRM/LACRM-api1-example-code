@@ -1,6 +1,6 @@
 <?php
 
-include('../init.php');
+include('init.php');
 
 $Function = "EditContact";
 
@@ -23,3 +23,4 @@ $Result = CallAPI($Function, $Parameters);
  
 DebugOutput($Result);
  
+?>
